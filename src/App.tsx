@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Search, X, Clock, Filter, ChevronDown } from 'lucide-react';
 
 // サンプルデータ
@@ -225,7 +225,7 @@ const App = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes fadeIn {
           from {
             opacity: 0;
